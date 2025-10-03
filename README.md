@@ -1,0 +1,1 @@
+# Documenta-o-do-Prot-tipo-de-An-lise-de-Sentimentos-em-Python
