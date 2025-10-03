@@ -56,6 +56,7 @@ Loop: Interação usuário.
 ⚠️ Limitações e Melhorias:
 
 Limitações: Dados pequenos causam erros em frases complexas. 😕
+
 Melhorias:
 
 ➕ NLTK para pré-processamento (stop words, stemming).
