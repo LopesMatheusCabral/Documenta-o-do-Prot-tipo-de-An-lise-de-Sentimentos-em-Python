@@ -5,9 +5,13 @@ Protótipo de IA para classificar mensagens como POSITIVA ou NEGATIVA usando ML 
 ✨ Funcionalidades:
 
 🧠 Treinamento com dados iniciais e acurácia exibida.
+
 🔍 Classificação de novas mensagens via console.
+
 💾 Persistência em joblib (modelo) e JSON (dados).
+
 📈 Aprendizado incremental: adicione e retreine.
+
 📊 Métricas: acurácia no treino (100% inicial).
 
 🛠️ Requisitos:
