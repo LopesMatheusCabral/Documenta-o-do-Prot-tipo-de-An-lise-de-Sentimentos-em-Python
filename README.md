@@ -68,4 +68,4 @@ Melhorias:
 🤝 Contribuição:
 Fork e envie pull requests! Ideias bem-vindas. ⭐
 📜 Licença:
-MIT - Livre para uso/modificação. © 2023
+MIT - Livre para uso/modificação. © 2023.
