@@ -1,63 +1,54 @@
-# Documenta-o-do-Prot-tipo-de-An-lise-de-Sentimentos-em-Python
+📊 Protótipo de Análise de Sentimentos em Python
+📝 Descrição
+Protótipo de IA para classificar mensagens como POSITIVA ou NEGATIVA usando ML (Naive Bayes). Treina com 20 frases iniciais, classifica interativamente, salva modelo/dados e aprende com correções. Baseado no desafio "desafio_IA_Python.docx". Ideal para feedbacks de clientes! 🚀
+✨ Funcionalidades
 
-Protótipo de Análise de Sentimentos com IA em Python
-Descrição
-Este é um protótipo simples de Inteligência Artificial (IA) para análise de sentimentos em mensagens de clientes, desenvolvido em Python. O sistema classifica textos como POSITIVA ou NEGATIVA usando Machine Learning (ML) com o algoritmo Naive Bayes da biblioteca scikit-learn. Baseado no desafio "desafio_IA_Python.docx", o código treina um modelo com um conjunto pequeno de frases, permite classificação de novas mensagens e inclui extras como salvamento de modelo e aprendizado incremental.
-Ideal para demonstrar habilidades em Python e ML em contextos como startups ou análise de feedbacks.
-Funcionalidades
+🧠 Treinamento com dados iniciais e acurácia exibida.
+🔍 Classificação de novas mensagens via console.
+💾 Persistência em joblib (modelo) e JSON (dados).
+📈 Aprendizado incremental: adicione e retreine.
+📊 Métricas: acurácia no treino (100% inicial).
 
-Treinamento de modelo com dados iniciais (20 frases em português).
-Classificação interativa de mensagens via console.
-Persistência: Salva modelo (joblib) e dados (JSON) para reutilização.
-Aprendizado: Adiciona novas frases com correções e retreina o modelo.
-Métricas: Exibe acurácia no conjunto de treinamento.
-
-Requisitos
+🛠️ Requisitos
 
 Python 3.x
 Bibliotecas: scikit-learn, joblib
 
 Instalação:
 textpip install scikit-learn joblib
-Como Usar
+🚀 Como Usar
 
-Clone o repositório ou copie o código para um arquivo sentiment_analysis.py.
-Execute o script:
-textpython sentiment_analysis.py
+Copie o código para analise_sentimentos.py.
+Execute: python analise_sentimentos.py.
+Veja exemplos classificados.
+Digite mensagens (ex: "Adorei!").
+Corrija erros para melhorar o modelo.
+Saia com 'sair'. 🔄
 
-O sistema treina/carrega o modelo e classifica exemplos iniciais.
-Digite mensagens para classificar (ex: "Adorei o produto!").
-Se a classificação estiver errada, corrija para adicionar ao modelo.
-Digite 'sair' para encerrar.
+Exemplo:
+textAcurácia: 100%  
+Mensagem: Ótimo! → POSITIVA
+🗂️ Estrutura do Código
 
-Exemplo de saída:
-textAcurácia no conjunto de treinamento: 100.00%
-Classificação dos exemplos:
-Mensagem: O atendimento foi ótimo, gostei muito! -> POSITIVA
-...
-Digite uma mensagem: Horrível serviço.
-Classificação: NEGATIVA
-Estrutura do Código
+load_data() / save_data(): Gerencia JSON.
+train_model() / load_model(): Treina/carrega ML.
+classify_message(): Classifica texto.
+add_new_example(): Adiciona e retreina.
+Loop: Interação usuário.
 
-load_data() e save_data(): Gerenciam dados em JSON.
-train_model() e load_model(): Treinam e carregam o modelo.
-classify_message(): Classifica uma mensagem.
-add_new_example(): Adiciona e retreina com novos dados.
-Loop principal: Interação com usuário.
+⚠️ Limitações e Melhorias
 
-Limitações e Melhorias
+Limitações: Dados pequenos causam erros em frases complexas. 😕
+Melhorias:
 
-Limitações: Dados pequenos podem causar erros em frases complexas; sem pré-processamento avançado.
-Sugestões:
-
-Adicionar NLTK para stemming e remoção de stop words.
-Usar TF-IDF para melhor vetorização.
-Integrar datasets maiores (ex: Kaggle).
-Criar API com Flask para uso web.
+➕ NLTK para pré-processamento (stop words, stemming).
+🔄 TF-IDF para vetorização melhor.
+📚 Datasets maiores (Kaggle).
+🌐 API com Flask.
 
 
 
-Contribuição
-Sinta-se à vontade para fork e pull requests! Sugestões são bem-vindas.
-Licença
-MIT License - Livre para uso e modificação.
+🤝 Contribuição
+Fork e envie pull requests! Ideias bem-vindas. ⭐
+📜 Licença
+MIT - Livre para uso/modificação. © 2023
