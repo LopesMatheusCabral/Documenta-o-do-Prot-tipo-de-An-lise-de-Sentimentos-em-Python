@@ -1,7 +1,8 @@
 📊 Protótipo de Análise de Sentimentos em Python
-📝 Descrição
+
+📝 Descrição:
 Protótipo de IA para classificar mensagens como POSITIVA ou NEGATIVA usando ML (Naive Bayes). Treina com 20 frases iniciais, classifica interativamente, salva modelo/dados e aprende com correções. Baseado no desafio "desafio_IA_Python.docx". Ideal para feedbacks de clientes! 🚀
-✨ Funcionalidades
+✨ Funcionalidades:
 
 🧠 Treinamento com dados iniciais e acurácia exibida.
 🔍 Classificação de novas mensagens via console.
@@ -9,7 +10,7 @@ Protótipo de IA para classificar mensagens como POSITIVA ou NEGATIVA usando ML 
 📈 Aprendizado incremental: adicione e retreine.
 📊 Métricas: acurácia no treino (100% inicial).
 
-🛠️ Requisitos
+🛠️ Requisitos:
 
 Python 3.x
 Bibliotecas: scikit-learn, joblib
